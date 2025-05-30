@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity 0.8.30;
 
 import {Greeter} from 'contracts/Greeter.sol';
 import {Script} from 'forge-std/Script.sol';
-import {IERC20} from 'forge-std/interfaces/IERC20.sol';
+import {IERC20} from 'openzeppelin/token/ERC20/IERC20.sol';
 
 contract Deploy is Script {
   struct DeploymentParams {
